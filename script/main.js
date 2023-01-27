@@ -1,1 +1,3 @@
-alert("JavaScript is working.");
+function () {
+	alert("JavaScript is working.");
+}
