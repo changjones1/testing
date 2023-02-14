@@ -1,5 +1,5 @@
 //let Phrase = require("changjones1-palindrome");
-alert("alert not in a funciton");
+//alert("alert not in a funciton");
 function jsAlert() {
 	alert("JavaScript is working.");
 }
