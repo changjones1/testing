@@ -59,7 +59,7 @@ function stupidFuck() {
 	console.log("stupidFuck function called");
 	let x = document.getElementById("textarea").value;
 	console.log("x is " + x);
-	let result = new Phrase("fuck you").palindrome();
+	let result = new Phrase(x).palindrome();
 	alert("Palindrome result: " + result);
 	alert("end stupidFuck function");
 }
