@@ -9,11 +9,12 @@ function jsAlertTime() {
 	let now = new Date();
 	alert(`JS is working ${now}`);
 }
-function stupidFuck(){
+function stupidFuck() {
 	console.log("buttonPress function called");
-	let x = document.getElementById("textarea").value;
-	let result = new Phrase(x).palindrome();
-	alert("Palindrome result: " + result);
+//	let x = document.getElementById("textarea").value;
+//	let result = new Phrase(x).palindrome();
+//	alert("Palindrome result: " + result);
+	alert("fucking stupid bitch fuck");
 }
 
 addEventListener('DOMContentLoaded', (event) => {
