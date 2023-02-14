@@ -1,4 +1,4 @@
-//let Phrase = require("changjones1-palindrome");
+let Phrase = require("changjones1-palindrome");
 //alert("alert not in a funciton");
 //alert(new Phrase("Madam, I'm Adam.").palindrome());
 //function jsAlert() {
@@ -10,10 +10,10 @@
 //}
 function stupidFuck() {
 	console.log("stupidFuck function called");
-//	let x = document.getElementById("textarea").value;
-//	let result = new Phrase(x).palindrome();
-//	alert("Palindrome result: " + result);
-//	alert("fucking stupid bitch fuck");
+	let x = document.getElementById("textarea").value;
+	let result = new Phrase(x).palindrome();
+	alert("Palindrome result: " + result);
+	alert("fucking stupid bitch fuck");
 }
 
 //addEventListener('DOMContentLoaded', (event) => {
