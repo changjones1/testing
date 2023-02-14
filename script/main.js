@@ -4,10 +4,10 @@ function jsAlert() {
 }
 function jsAlertTime() {
 	let now = new Date();
-	alert(`JS is working ${now}`);
+//	alert(`JS is working ${now}`);
 
-	alert(new Phrase("Madam, I'm Adam.").palindrome());
-	alert("fuck");
+//	alert(new Phrase("Madam, I'm Adam.").palindrome());
+//	alert("fuck");
 	alert("fuck");
 }
 addEventListener('DOMContentLoaded', (event) => {
