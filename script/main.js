@@ -8,7 +8,7 @@ function jsAlertTime() {
 	let now = new Date();
 	alert(`JS is working ${now}`);
 }
-function buttonPress(){
+function stupidFuck(){
 	console.log("buttonPress function called");
 	let x = document.getElementById("textarea").value;
 	let result = new Phrase(x).palindrome();
