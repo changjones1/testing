@@ -14,5 +14,8 @@ function jsAlertTime() {
 addEventListener('DOMContentLoaded', (event) => {
 	jsAlertTime();
 });
-
-
+function buttonPress(){
+	let x = document.getElementById("textarea").value;
+	let result = new Phrase(x).palindrome();
+	alert("Palindrome result: " + result);
+}
