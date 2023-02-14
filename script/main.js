@@ -8,3 +8,5 @@ function jsAlertTime() {
 addEventListener('DOMContentLoaded', (event) => {
 	jsAlertTime();
 });
+
+
