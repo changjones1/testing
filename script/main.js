@@ -1,21 +1,21 @@
-let Phrase = require("changjones1-palindrome");
-alert("alert not in a funciton");
-alert(new Phrase("Madam, I'm Adam.").palindrome());
-function jsAlert() {
-	alert("JavaScript is working.");
-}
-function jsAlertTime() {
-	let now = new Date();
-	alert(`JS is working ${now}`);
-}
+//let Phrase = require("changjones1-palindrome");
+//alert("alert not in a funciton");
+//alert(new Phrase("Madam, I'm Adam.").palindrome());
+//function jsAlert() {
+//	alert("JavaScript is working.");
+//}
+//function jsAlertTime() {
+//	let now = new Date();
+//	alert(`JS is working ${now}`);
+//}
 function stupidFuck() {
-	console.log("buttonPress function called");
+	console.log("stupidFuck function called");
 //	let x = document.getElementById("textarea").value;
 //	let result = new Phrase(x).palindrome();
 //	alert("Palindrome result: " + result);
-	alert("fucking stupid bitch fuck");
+//	alert("fucking stupid bitch fuck");
 }
 
-addEventListener('DOMContentLoaded', (event) => {
-	jsAlertTime();
-});
+//addEventListener('DOMContentLoaded', (event) => {
+//	jsAlertTime();
+//});
