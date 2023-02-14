@@ -1,6 +1,6 @@
 let Phrase = require("changjones1-palindrome");
 alert(new Phrase("Madam, I'm Adam.").palindrome());
-
+alert("fuck");
 function jsAlert() {
 	alert("JavaScript is working.");
 }
