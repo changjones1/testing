@@ -46,8 +46,8 @@ function palindrome(string){
 
 //everythign below here was already in this main.js file
 //let Phrase = require("changjones1-palindrome");  //comment out afer putting the palindrome stuff into main.js
-alert("alert not in a funciton");
-alert(new Phrase("Madam, I'm Adam.").palindrome());
+//alert("alert not in a funciton");
+//alert(new Phrase("Madam, I'm Adam.").palindrome());
 //function jsAlert() {
 //	alert("JavaScript is working.");
 //}
@@ -61,9 +61,10 @@ function stupidFuck() {
 	console.log("x is " + x);
 	let result = new Phrase(x).palindrome();
 	alert("Palindrome result: " + result);
-	alert("end stupidFuck function");
+	//alert("end stupidFuck function");
 }
 
 addEventListener('DOMContentLoaded', (event) => {
-	jsAlertTime();
+//	jsAlertTime();
+	console.log("DOMContentLoaded");
 });
