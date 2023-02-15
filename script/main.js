@@ -8,7 +8,7 @@ function jsAlertTime() {
 	let now = new Date();
 	alert(`JS is working ${now}`);
 }
-function fuckFuck() {
+global.fuckFuck = function() {
 	console.log("fuckFuck function called");
 	let x = document.getElementById("textarea").value;
 	console.log("x is " + x);
