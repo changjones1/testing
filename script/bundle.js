@@ -9,8 +9,8 @@ function jsAlertTime() {
 	let now = new Date();
 	alert(`JS is working ${now}`);
 }
-function stupidFuck() {
-	console.log("stupidFuck function called");
+function fuckFuck() {
+	console.log("fuckFuck function called");
 	let x = document.getElementById("textarea").value;
 	console.log("x is " + x);
 	let result = new Phrase("fuck you").palindrome();
